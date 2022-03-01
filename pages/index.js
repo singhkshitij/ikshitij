@@ -263,7 +263,7 @@ export default function Home(props) {
                 html,
                 body {
                   color-scheme: dark;
-                  background: #03071e;
+                  background: #131418;
                   color: #e5e5e5;
                 }
               }
