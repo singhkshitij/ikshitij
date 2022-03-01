@@ -1,0 +1,19 @@
+{
+  "name": "ikshitij",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-tooltip": "^4.2.21",
+    "rss-parser": "^3.12.0",
+    "sass": "^1.43.2"
+  }
+}
