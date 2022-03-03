@@ -137,12 +137,35 @@ export default function Home(props) {
                         <ul className={styles.list}>
                             <li>
                                 <div>
-                                    <span style={{marginRight: '10px'}}>💬</span>
+                                    <span style={{marginRight: '10px'}}>🐦</span>
                                     <a href="https://superdms.app" target={"_blank"}>SuperDMs.app</a>
                                 </div>
-                                <div className={styles.subtitle}>Adding a feature every week</div>
+                                <div className={styles.subtitle}>Twitter DMs management tool</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span style={{marginRight: '10px'}}>💬</span>
+                                    <a href="https://namelss.ikshitij.com/" target={"_blank"}>Namelss</a>
+                                </div>
+                                <div className={styles.subtitle}>An anonymous chat messenger</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span style={{marginRight: '10px'}}>📝</span>
+                                    <a href="https://kanbang.ikshitij.com/" target={"_blank"}>Kanbang</a>
+                                </div>
+                                <div className={styles.subtitle}>Minimalist but stylish Kanban board</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span style={{marginRight: '10px'}}>🔗</span>
+                                    <a href="https://chootu.ikshitij.com/" target={"_blank"}>Chootu</a>
+                                </div>
+                                <div className={styles.subtitle}>Minimal url shortener</div>
                             </li>
                         </ul>
+                    </section>
+                    <section>
                         <h2>Writings</h2>
                         <ul className={styles.list}>
                             <li>
@@ -188,7 +211,8 @@ export default function Home(props) {
                             <li>
                                 <div>
                                     <span style={{marginRight: '10px'}}>🎥</span>
-                                    <a href="https://www.youtube.com/channel/UC1sLIdmn2AzkPhR9-ThvixQ" target={"_blank"}>YouTube</a>
+                                    <a href="https://www.youtube.com/channel/UC1sLIdmn2AzkPhR9-ThvixQ"
+                                       target={"_blank"}>YouTube</a>
                                 </div>
                                 <div className={styles.subtitle}>Hoping to get active</div>
                             </li>
