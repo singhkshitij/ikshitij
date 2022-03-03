@@ -152,9 +152,16 @@ export default function Home(props) {
                             <li>
                                 <div>
                                     <span style={{marginRight: '10px'}}>📝</span>
-                                    <a href="https://kanbang.ikshitij.com/" target={"_blank"}>Kanbang</a>
+                                    <a href="https://kanbang-d1e70.web.app/" target={"_blank"}>Kanbang</a>
                                 </div>
                                 <div className={styles.subtitle}>Minimalist but stylish Kanban board</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span style={{marginRight: '10px'}}>💡</span>
+                                    <a href="https://ideator.ikshitij.com/" target={"_blank"}>Ideator</a>
+                                </div>
+                                <div className={styles.subtitle}>Use it for tweet ideas</div>
                             </li>
                             <li>
                                 <div>
