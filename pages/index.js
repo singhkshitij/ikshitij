@@ -5,7 +5,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Parser from "rss-parser";
 
-import { Intro, About, Products, Writings } from "../components";
+import { Intro, About, Products, Writings, Socials, OtherCode } from "../components";
 
 export default function Home(props) {
   const [showTip, setShowTip] = useState(false);
@@ -102,131 +102,9 @@ export default function Home(props) {
         <div className={styles.sections}>
           <About />
           <Products />
-          {/* <section>
-            <h2>Writings</h2>
-            <ul className={styles.list}>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>📝</span>
-                  <a href="https://mytrashcode.com" target={"_blank"}>
-                    Blog
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Programming tutorials</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>💌</span>
-                  <a href="http://newsletter.ikshitij.com" target={"_blank"}>
-                    Newsletter
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Building audience</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>✏️</span>
-                  <a href="https://ikshitij.com/notes" target={"_blank"}>
-                    Public Notes
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Notes, tips, and FAQs</div>
-              </li>
-            </ul>
-          </section> */}
           <Writings />
-          <section>
-            <h2>Social Media</h2>
-            <ul className={styles.list}>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>🐦</span>
-                  <a href="https://twitter.com/ikshitijsingh" target={"_blank"}>
-                    Twitter
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Tweets everyday</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>📸</span>
-                  <a
-                    href="https://www.instagram.com/singh_kshitij/"
-                    target={"_blank"}
-                  >
-                    Instagram
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Somewhat active</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>🎥</span>
-                  <a
-                    href="https://www.youtube.com/channel/UC1sLIdmn2AzkPhR9-ThvixQ"
-                    target={"_blank"}
-                  >
-                    YouTube
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Hoping to get active</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>💼</span>
-                  <a
-                    href="https://www.linkedin.com/in/ikshitijsingh/"
-                    target={"_blank"}
-                  >
-                    LinkedIn
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Still trying to be active</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>📧</span>
-                  <a href="mailto:singh_kshitij@yahoo.com" target={"_blank"}>
-                    Email
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Immediate responses</div>
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h2>Code</h2>
-            <ul className={styles.list}>
-              <li>
-                <span style={{ marginRight: "10px" }}>⌨️</span>
-                <a href="https://github.com/trungdq88" target={"_blank"}>
-                  GitHub
-                </a>
-              </li>
-              <h2>Other Places</h2>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>😺</span>
-                  <a
-                    href="https://www.producthunt.com/@kshitij_singh"
-                    target={"_blank"}
-                  >
-                    Product Hunt
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Products launched: 2</div>
-              </li>
-              <li>
-                <div>
-                  <span style={{ marginRight: "10px" }}>💰</span>
-                  <a href="https://paypal.me/ikshitijsingh" target={"_blank"}>
-                    PayPal
-                  </a>
-                </div>
-                <div className={styles.subtitle}>Thanks for your tip!</div>
-              </li>
-            </ul>
-          </section>
+          <Socials />
+          <OtherCode />
         </div>
       </main>
 
