@@ -5,7 +5,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Parser from "rss-parser";
 
-import { Intro, About, Products } from "../components";
+import { Intro, About, Products, Writings } from "../components";
 
 export default function Home(props) {
   const [showTip, setShowTip] = useState(false);
@@ -102,7 +102,7 @@ export default function Home(props) {
         <div className={styles.sections}>
           <About />
           <Products />
-          <section>
+          {/* <section>
             <h2>Writings</h2>
             <ul className={styles.list}>
               <li>
@@ -133,7 +133,8 @@ export default function Home(props) {
                 <div className={styles.subtitle}>Notes, tips, and FAQs</div>
               </li>
             </ul>
-          </section>
+          </section> */}
+          <Writings />
           <section>
             <h2>Social Media</h2>
             <ul className={styles.list}>
